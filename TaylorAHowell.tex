@@ -1,0 +1,137 @@
+\let\nofiles\relax % This is because res says to not emit aux files,
+                   % but lastpage needs aux files.
+\documentclass[margin,line]{res}
+\usepackage[colorlinks=true]{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{etaremune}
+\usepackage[normalem]{ulem}
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\voffset -25pt
+%\topmargin -.2in
+\headsep 25pt
+\textwidth=6.0in
+\textheight=9.3in
+\itemsep=0in
+\parsep=0in
+
+% Headings
+\pagestyle{fancy}
+\lhead{Taylor A. Howell --- Curriculum Vitae}
+\chead{}
+\rhead{\thepage\ of \pageref*{LastPage}}
+\lfoot{}
+\cfoot{}
+\rfoot{}
+\renewcommand{\headrulewidth}{0.4pt}
+%\renewcommand{\footrulewidth}{0.4pt}
+
+\begin{document}
+
+\newcommand{\myname}{Taylor A. Howell}
+\newlength{\mynamewidth}
+\settowidth{\mynamewidth}{\namefont\myname}
+
+\name{\hspace*{0.5\textwidth}\hspace{-0.5\mynamewidth} \myname \vspace*{.1in}}
+% On the first page, have no header.
+\thispagestyle{empty}
+
+\begin{resume}
+
+\input{ContactContent.tex}
+
+% \section{\sc Citizenship}
+% United States
+
+\section{\sc Education}
+{\bf Ph.D., Mechanical Engineering,} Stanford University, CA, USA \hfill {\bf Sept. 2017 - present}\\
+\vspace*{-.1in}
+\begin{itemize}
+%\item[ ] Dissertation Advisor: Dr. Zachary Manchester 
+%\item[ ] Dissertation Title: 
+%\item[ ] G.P.A.: 
+\end{itemize}
+
+{\bf B.S., Mechanical Engineering,} University of Utah, UT, USA \hfill {\bf Dec. 2016}\\
+\vspace*{-.1in}
+\begin{itemize}
+\item[ ] Summa Cum Laude
+%\item[ ] G.P.A.: 3.99/4.00
+\end{itemize}
+
+\section{\sc Research}
+{\bf Research Assistant,} Robotic Exploration Lab, Stanford University
+\hfill {\bf May 2018--Present}\\
+\\
+Co-leading development of \texttt{TrajectoryOptimization.jl}, an open-source Julia package for solving constrained trajectory optimization problems. My research is focused on devising optimization tools and algorithms for motion planning of underactuated robotic systems.\\
+\\
+{\bf Research Assistant,} Telerobotics Laboratory, University of Utah
+\hfill {\bf Oct. 2015 - Dec. 2016}\\
+\\
+I devised and implemented a control policy to sort swarms of microrobots using rotating uniform
+magnetic fields for minimally invasive medical applications. This work included: applied physics, simulation, nonlinear optimization, fabrication of a scaled microrobot swarm, and writing C++ code for a tri-axial Helmholtz-coil system.\\
+\\
+{\bf Research Assistant,} Utah Center of Excellence for Biomedical Microfluidics, University of Utah
+\hfill {\bf Sept. 2014 - Oct. 2015}\\
+\\
+I designed and built a forty-eight-syringe pump for a medical microfluidic system, developed standard operating procedures for a high-throughput drug screening and cytotoxicity evaluation system, and performed statistical analysis for ovarian-cancer cell experiments.\\
+
+\section{\sc Experience}
+{\bf Instructor,} GREAT Summer Camp, University of Utah
+\hfill {\bf Jun. 2017 – Jul. 2017}\\
+\\
+Taught practical robotics and programming skills to elementary school students using the LEGO Mindstorm platform and developed projects and challenges for FLL skills, telerobotics, and kinetic-art themed weeks.\\
+\\
+{\bf Co-founder,} Cornaby-Howell LLC
+\hfill {\bf Apr. 2015 – Oct. 2015}\\
+\\
+I prototyped systems including: a touch display module with GUI, Arduino C code, a lead-screw system,
+and syringe attachment modules for precision high-throughput syringe pumps.\\
+\\
+{\bf Twisty Puzzle Designer,} 
+\hfill {\bf Aug. 2007 – Jan. 2011}\\
+\\
+I designed and built twisty puzzles with selling prices ranging from $25 - $850. I exhibited my work at
+the community’s premier international event, Dutch Cube Day, in 2008.\\
+\\
+
+\section{\sc Skills}
+Julia, Python, C++, Matlab\\
+\LaTeX, Solidworks, ROS, Adobe Premiere Pro, Adobe Illustrator \\
+Mill, Lathe, Vacuum Forming, Laser Cutting, Mold Making and Casting, Metal Sheet Fabrication\\
+\\
+\section{\sc Coursework at Stanford}
+Convex Optimization E364a, Optimal Control AA203, Nonlinear Control AA209, State Estimation AA273, Principles of Robotic Autonomy AA274, Mechatronics ME210, Linear Dynamical Systems EE 263, Introduction to Robotics ME320, Machine Learning CS229, Decision Making Under Uncertainty AA228, Control Design Techniques E205, Advanced Feedback Control AA212, Optimization MS\&E 211X, Experimental Robotics CS225a
+\\
+\section{\sc Publications}
+1. \textbf{T Howell}, B Jackson, Z Manchester. ALTRO: A Faster Solver for Constrained Trajectory Optimization. 2019. International Conference on Intelligent Robots and Systems. Macao, China. \textit{Accepted}.\\
+\\
+2. \textbf{T Howell}, B Osting, J Abbott. Sorting Rotating Micromachines By Variations in Their Magnetic
+Properties. 2018. Physical Review Applied.\\
+\\
+3. J Arellano, \textbf{T Howell}, J Gammon, S Cho, M Janat Amsbury, B Gale. Use of a highly parallel
+Microfluidic Flow Cell Array to determine therapeutic drug dose response curves. 2017. Biomedical
+Microdevices.\\
+\\
+4. J Arellano, J Gammon, \textbf{T Howell}, M Janat-Amsbury, B Gale. A Continuous Flow Microspotter for
+the Implementation of a High-Throughput Drug Screening and Cytotoxicity Evaluation System.
+2015. BMES Annual Meeting.
+
+\section{\sc Fellowships and Scholarships}
+ Stanford Graduate Fellowship \hfill {\bf 2017 – 2018}\\
+University of Utah Undergraduate Research Opportunities Program Fellowship \hfill {\bf 2016}\\
+The Boeing Company Scholarship \hfill {\bf 2016}\\
+Shirley L. \& Kathelyne O. Evans Endowed Scholarship \hfill {\bf 2016}\\
+Big Ten+ Grad Expo travel scholarship \hfill {\bf 2016}\\
+University of Utah Presidential Scholarship \hfill {\bf 2013 – 2016}
+\\
+
+
+\end{resume}
+\end{document}
