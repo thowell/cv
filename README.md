@@ -25,11 +25,11 @@ Research Intern - Google Brain
 
 Course Assistant - Dynamics and Control of Aircraft (AA271a)
 Department of Aeronautics and Astronautics, Stanford University
-(April 2021 - June 2021)
+(April - June 2021)
 
 Instructor - GREAT Summer Camp.
 Department of Computer Science, University of Utah
-(June 2017 - July 2017)
+(June - July 2017)
 
 </div>
 
