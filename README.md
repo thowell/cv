@@ -20,8 +20,7 @@ BS 2016, Department of Mechanical Engineering, University of Utah.
 ## Experience
 <div class="list"> 
 
-Research Intern
-Google Brain
+Research Intern - Google Brain
 (June - September 2021)
 
 Course Assistant - Dynamics and Control of Aircraft (AA271a)
