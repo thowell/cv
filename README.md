@@ -41,6 +41,7 @@ Twisty Puzzle Designer
 <div class="list">
 
 CALIPSO: A Differentiable Solver for Trajectory Optimization with Conic and Complementarity Constraints. **T. Howell**, K. Tracy, S. Le Cleac'h. Z. Manchester. (submitted to ISRR). 2022. ([paper](https://arxiv.org/abs/2205.09255), [code](https://github.com/thowell/CALIPSO.jl))
+ 
 Dojo: A Differentiable Simulator for Robotics. **T. Howell** & S. Le Cleac'h, Z. Kolter, M. Schwager, Z. Manchester. (submitted to RSS). 2022. ([paper](https://arxiv.org/abs/2203.00806)) ([code](https://github.com/dojo-sim))
   
 Trajectory Optimization with Optimization-Based Dynamics. **T. Howell**, S. Le Cleac'h, S. Singh, P. Florence, Z. Manchester, V. Sindhwani. Robotics and Automation Letters (to appear). 2022. ([paper](https://arxiv.org/abs/2109.04928)) ([code](https://github.com/thowell/optimization_dynamics))
