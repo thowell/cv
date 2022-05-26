@@ -44,7 +44,7 @@ CALIPSO: A Differentiable Solver for Trajectory Optimization with Conic and Comp
  
 Dojo: A Differentiable Simulator for Robotics. **T. Howell** & S. Le Cleac'h, Z. Kolter, M. Schwager, Z. Manchester. (submitted to RSS). 2022. ([paper](https://arxiv.org/abs/2203.00806)) ([code](https://github.com/dojo-sim))
   
-Trajectory Optimization with Optimization-Based Dynamics. **T. Howell**, S. Le Cleac'h, S. Singh, P. Florence, Z. Manchester, V. Sindhwani. Robotics and Automation Letters (to appear). 2022. ([paper](https://arxiv.org/abs/2109.04928)) ([code](https://github.com/thowell/optimization_dynamics), [poster]())
+Trajectory Optimization with Optimization-Based Dynamics. **T. Howell**, S. Le Cleac'h, S. Singh, P. Florence, Z. Manchester, V. Sindhwani. Robotics and Automation Letters (to appear). 2022. ([paper](https://arxiv.org/abs/2109.04928)) ([code](https://github.com/thowell/optimization_dynamics)) ([poster](https://github.com/thowell/cv/blob/master/posters/optimization_dynamics_poster.pdf))
 
 Fast Contact-Implicit Model-Predictive Control. S. Le Cleac'h & **T. Howell**, M. Schwager, Z. Manchester. (submitted to TRO). 2021. ([paper](https://arxiv.org/abs/2107.05616v2)) ([code](https://github.com/thowell/ContactImplicitMPC.jl))
 
@@ -64,13 +64,22 @@ Use of a highly parallel Microfluidic Flow Cell Array to determine therapeutic d
 
 <div class="list">
  
-Trajectory Optimization with Optimization-Based Dynamics. ICRA 2022, Philadelphia. May 2022. ([presentation](https://youtu.be/Hntswjw0TAs])) ([slides](https://docs.google.com/presentation/d/1E_JPBT9gnIXP5MWUasNvQDgjxo6w6281m8Rp3sXeefM/edit?usp=sharing))
+Trajectory Optimization with Optimization-Based Dynamics. ([presentation](https://youtu.be/Hntswjw0TAs])) ([slides](https://docs.google.com/presentation/d/1E_JPBT9gnIXP5MWUasNvQDgjxo6w6281m8Rp3sXeefM/edit?usp=sharing))
+- ICRA 2022, Philadelphia. May 2022.
  
-Dojo: A Differentiable Simulator for Robotics. SystemX lunch seminar, Stanford University. March 2022 (w/ S. Le Cleac'h) ([slides](https://slides.com/taylorhowell/dojo-systemx))
+Dojo: A Differentiable Simulator for Robotics. (w/ S. Le Cleac'h) ([slides](https://slides.com/taylorhowell/dojo-systemx)) ([video](https://youtu.be/TRtOESXJxJQ))
+- Microsoft Research. May 2022 
+- SciML webinar, Carnegie Mellon University. April 2022
+- SystemX lunch seminar, Stanford University. March 2022
 
-Contact-Implicit Model-Predictive Control. Machines in Motion, New York University. December 2021. (w/ S. Le Cleac'h). ([slides](https://docs.google.com/presentation/d/1Cqc-gLRv_R_L0CqNBmCzncsyD0lzGPoG4-qC2v7D2qI/edit?usp=sharing))
-
-Contact-Implicit Model-Predictive Control. Locomotion Seminar, Carnegie Mellon University. November 2021. (w/ S. Le Cleac'h). ([slides](https://docs.google.com/presentation/d/1Cqc-gLRv_R_L0CqNBmCzncsyD0lzGPoG4-qC2v7D2qI/edit?usp=sharing))
+Contact-Implicit Model-Predictive Control. (w/ S. Le Cleac'h). ([slides](https://docs.google.com/presentation/d/1Cqc-gLRv_R_L0CqNBmCzncsyD0lzGPoG4-qC2v7D2qI/edit?usp=sharing))
+- Machines in Motion, New York University. December 2021.
+- Locomotion Seminar, Carnegie Mellon University. November 2021.
+ 
+ALTRO: A Fast Solver for Constrained Trajectory Optimization.  (w/ B. Jackson) ([poster](https://github.com/thowell/cv/blob/master/posters/altro_poster.pdf))
+- BARS, University of California Berkeley. November 2019
+- System X seminar, Stanford University. November 2019
+- Toward Online Optimal Control of Dynamic Robots, ICRA workshop. May 2019
 
 </div>
 
