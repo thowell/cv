@@ -44,7 +44,7 @@ CALIPSO: A Differentiable Solver for Trajectory Optimization with Conic and Comp
  
 Dojo: A Differentiable Simulator for Robotics. **T. Howell** & S. Le Cleac'h, Z. Kolter, M. Schwager, Z. Manchester. (submitted to RSS). 2022. ([paper](https://arxiv.org/abs/2203.00806)) ([code](https://github.com/dojo-sim))
   
-Trajectory Optimization with Optimization-Based Dynamics. **T. Howell**, S. Le Cleac'h, S. Singh, P. Florence, Z. Manchester, V. Sindhwani. Robotics and Automation Letters (to appear). 2022. ([paper](https://arxiv.org/abs/2109.04928)) ([code](https://github.com/thowell/optimization_dynamics))
+Trajectory Optimization with Optimization-Based Dynamics. **T. Howell**, S. Le Cleac'h, S. Singh, P. Florence, Z. Manchester, V. Sindhwani. Robotics and Automation Letters (to appear). 2022. ([paper](https://arxiv.org/abs/2109.04928)) ([code](https://github.com/thowell/optimization_dynamics), [poster]())
 
 Fast Contact-Implicit Model-Predictive Control. S. Le Cleac'h & **T. Howell**, M. Schwager, Z. Manchester. (submitted to TRO). 2021. ([paper](https://arxiv.org/abs/2107.05616v2)) ([code](https://github.com/thowell/ContactImplicitMPC.jl))
 
