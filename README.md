@@ -20,6 +20,9 @@ BS 2016, Department of Mechanical Engineering, University of Utah.
 ## Experience
 <div class="list"> 
 
+Research Scientist Intern - DeepMind 
+(June - September 2022)
+
 Research Intern - Google Brain
 (June - September 2021)
 
@@ -42,7 +45,7 @@ Twisty Puzzle Designer
 
 CALIPSO: A Differentiable Solver for Trajectory Optimization with Conic and Complementarity Constraints. **T. Howell**, K. Tracy, S. Le Cleac'h. Z. Manchester. (submitted to ISRR). 2022. ([paper](https://arxiv.org/abs/2205.09255), [code](https://github.com/thowell/CALIPSO.jl))
  
-Dojo: A Differentiable Simulator for Robotics. **T. Howell** & S. Le Cleac'h, Z. Kolter, M. Schwager, Z. Manchester. (submitted to RSS). 2022. ([paper](https://arxiv.org/abs/2203.00806)) ([code](https://github.com/dojo-sim))
+Dojo: A Differentiable Physics Engine for Robotics. **T. Howell** & S. Le Cleac'h, Z. Kolter, M. Schwager, Z. Manchester. (submitted to RSS). 2022. ([paper](https://arxiv.org/abs/2203.00806)) ([code](https://github.com/dojo-sim))
   
 Trajectory Optimization with Optimization-Based Dynamics. **T. Howell**, S. Le Cleac'h, S. Singh, P. Florence, Z. Manchester, V. Sindhwani. Robotics and Automation Letters (to appear). 2022. ([paper](https://arxiv.org/abs/2109.04928)) ([code](https://github.com/thowell/optimization_dynamics)) ([poster](https://github.com/thowell/cv/blob/master/posters/optimization_dynamics_poster.pdf))
 
@@ -63,7 +66,13 @@ Use of a highly parallel Microfluidic Flow Cell Array to determine therapeutic d
 ## Talks & presentations
 
 <div class="list">
- 
+
+Dojo: A Differentible Physics Engine for Robotics. (w/ S. Le Cleac'h) ([slides](https://slides.com/taylorhowell/dojo-bc98a0)) ([poster](https://docs.google.com/presentation/d/1Kdj7ZUSdwdRqJbqqZ1_kVe3V1hIyxTqK7vFjwI9HKHo/edit?usp=sharing))
+- Differentiable Physics for Robotics workshop. RSS 2022. New York City. July 2022 
+
+Fast Contact-Implicit Model-Predictive Control. (w/ S. Le Cleac'h) ([slides](https://slides.com/simlc/contact_implicit_mpc)) ([poster](https://docs.google.com/presentation/d/1tdtYqT6TG8T2UW6IB2b7uXRweDTfD8UFUdbj3tJFMbQ/edit?usp=sharing))
+- The Science of Bumping into Things workshop. RSS 2022. New York City. July 2022 
+
 Trajectory Optimization with Optimization-Based Dynamics. ([presentation](https://youtu.be/Hntswjw0TAs])) ([slides](https://docs.google.com/presentation/d/1E_JPBT9gnIXP5MWUasNvQDgjxo6w6281m8Rp3sXeefM/edit?usp=sharing))
 - ICRA 2022, Philadelphia. May 2022.
  
