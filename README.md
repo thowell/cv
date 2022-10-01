@@ -43,11 +43,11 @@ Twisty Puzzle Designer
 
 <div class="list">
 
-CALIPSO: A Differentiable Solver for Trajectory Optimization with Conic and Complementarity Constraints. **T. Howell**, K. Tracy, S. Le Cleac'h. Z. Manchester. (accepted to ISRR). 2022. ([paper](https://arxiv.org/abs/2205.09255)) ([code](https://github.com/thowell/CALIPSO.jl)) ([slides](https://slides.com/taylorhowell/calipso))
+CALIPSO: A Differentiable Solver for Trajectory Optimization with Conic and Complementarity Constraints. **T. Howell**, K. Tracy, S. Le Cleac'h. Z. Manchester. ISRR. 2022. ([paper](https://arxiv.org/abs/2205.09255)) ([code](https://github.com/thowell/CALIPSO.jl)) ([slides](https://slides.com/taylorhowell/calipso))
  
 Dojo: A Differentiable Physics Engine for Robotics. **T. Howell** & S. Le Cleac'h, Z. Kolter, M. Schwager, Z. Manchester. (submitted to RSS). 2022. ([paper](https://arxiv.org/abs/2203.00806)) ([code](https://github.com/dojo-sim))
   
-Trajectory Optimization with Optimization-Based Dynamics. **T. Howell**, S. Le Cleac'h, S. Singh, P. Florence, Z. Manchester, V. Sindhwani. Robotics and Automation Letters (to appear). 2022. ([paper](https://arxiv.org/abs/2109.04928)) ([code](https://github.com/thowell/optimization_dynamics)) ([poster](https://github.com/thowell/cv/blob/master/posters/optimization_dynamics_poster.pdf))
+Trajectory Optimization with Optimization-Based Dynamics. **T. Howell**, S. Le Cleac'h, S. Singh, P. Florence, Z. Manchester, V. Sindhwani. Robotics and Automation Letters. 2022. ([paper](https://arxiv.org/abs/2109.04928)) ([code](https://github.com/thowell/optimization_dynamics)) ([poster](https://github.com/thowell/cv/blob/master/posters/optimization_dynamics_poster.pdf))
 
 Fast Contact-Implicit Model-Predictive Control. S. Le Cleac'h & **T. Howell**, M. Schwager, Z. Manchester. (submitted to TRO). 2021. ([paper](https://arxiv.org/abs/2107.05616v2)) ([code](https://github.com/thowell/ContactImplicitMPC.jl))
 
@@ -67,6 +67,9 @@ Use of a highly parallel Microfluidic Flow Cell Array to determine therapeutic d
 
 <div class="list">
 
+CALIPSO: A Differentiable Solver for Trajectory Optimization with Conic and Complementarity Constraints. ([slides](https://slides.com/taylorhowel/calipso))
+- ISRR 2022. Geneva. September 2022.
+ 
 Dojo: A Differentible Physics Engine for Robotics. (w/ S. Le Cleac'h) ([slides](https://slides.com/taylorhowell/dojo-bc98a0)) ([poster](https://docs.google.com/presentation/d/1Kdj7ZUSdwdRqJbqqZ1_kVe3V1hIyxTqK7vFjwI9HKHo/edit?usp=sharing))
 - Differentiable Physics for Robotics workshop. RSS 2022. New York City. July 2022 
 
