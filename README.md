@@ -67,14 +67,17 @@ Use of a highly parallel Microfluidic Flow Cell Array to determine therapeutic d
 
 <div class="list">
 
+Contact-Implicit Predictive Control. ([slides](https://docs.google.com/presentation/d/1cKX3DPjEyANDVlfi7JYHEFXq15LCYBmchT4lVkyVnkc/edit?usp=sharing)) 
+- [ELO-X Workshop](https://elo-x.eu/?p=1597). Freiburg. October 2022.
+
 CALIPSO: A Differentiable Solver for Trajectory Optimization with Conic and Complementarity Constraints. ([slides](https://slides.com/taylorhowel/calipso))
 - ISRR 2022. Geneva. September 2022.
  
 Dojo: A Differentible Physics Engine for Robotics. (w/ S. Le Cleac'h) ([slides](https://slides.com/taylorhowell/dojo-bc98a0)) ([poster](https://docs.google.com/presentation/d/1Kdj7ZUSdwdRqJbqqZ1_kVe3V1hIyxTqK7vFjwI9HKHo/edit?usp=sharing))
-- Differentiable Physics for Robotics workshop. RSS 2022. New York City. July 2022 
+- Differentiable Physics for Robotics workshop. RSS 2022. New York City. July 2022.
 
 Fast Contact-Implicit Model-Predictive Control. (w/ S. Le Cleac'h) ([slides](https://slides.com/simlc/contact_implicit_mpc)) ([poster](https://docs.google.com/presentation/d/1tdtYqT6TG8T2UW6IB2b7uXRweDTfD8UFUdbj3tJFMbQ/edit?usp=sharing))
-- The Science of Bumping into Things workshop. RSS 2022. New York City. July 2022 
+- The Science of Bumping into Things workshop. RSS 2022. New York City. July 2022. 
 
 Trajectory Optimization with Optimization-Based Dynamics. ([presentation](https://youtu.be/Hntswjw0TAs])) ([slides](https://docs.google.com/presentation/d/1E_JPBT9gnIXP5MWUasNvQDgjxo6w6281m8Rp3sXeefM/edit?usp=sharing))
 - ICRA 2022, Philadelphia. May 2022.
