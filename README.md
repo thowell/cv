@@ -21,6 +21,7 @@ BS 2016, Department of Mechanical Engineering, University of Utah.
 <div class="list"> 
 
 Research Scientist Intern - DeepMind 
+Robotics Simulation Team (MuJoCo)
 (June - September 2022)
 
 Research Intern - Google Brain
@@ -43,6 +44,8 @@ Twisty Puzzle Designer
 
 <div class="list">
 
+Predictive Sampling: Real-time Behaviour Synthesis with MuJoCo. **T. Howell**, N. Gileadi, S. Tunyasuvunakool, K. Zakka, T. Erez, Y. Tassa. arXiv. 2022. ([paper](https://arxiv.org/abs/2212.00541)) ([code](https://github.com/deepmind/mujoco_mpc)) 
+ 
 CALIPSO: A Differentiable Solver for Trajectory Optimization with Conic and Complementarity Constraints. **T. Howell**, K. Tracy, S. Le Cleac'h. Z. Manchester. ISRR. 2022. ([paper](https://arxiv.org/abs/2205.09255)) ([code](https://github.com/thowell/CALIPSO.jl)) ([slides](https://slides.com/taylorhowell/calipso))
  
 Dojo: A Differentiable Physics Engine for Robotics. **T. Howell** & S. Le Cleac'h, Z. Kolter, M. Schwager, Z. Manchester. (submitted to RSS). 2022. ([paper](https://arxiv.org/abs/2203.00806)) ([code](https://github.com/dojo-sim))
@@ -66,6 +69,9 @@ Use of a highly parallel Microfluidic Flow Cell Array to determine therapeutic d
 ## Talks & presentations
 
 <div class="list">
+
+Numerical Optimization For Things That Move: Simulation, Planning, and Control. ([slides](https://docs.google.com/presentation/d/1ypalKNcd1hAI59Fur3mFP5FYANqrQ1Smk2gUb-UiBIA/edit?usp=sharing)) 
+- PhD Defense. Stanford. November 2022.
 
 Contact-Implicit Predictive Control. ([slides](https://docs.google.com/presentation/d/1cKX3DPjEyANDVlfi7JYHEFXq15LCYBmchT4lVkyVnkc/edit?usp=sharing)) 
 - [ELO-X Workshop](https://elo-x.eu/?p=1597). Freiburg. October 2022.
