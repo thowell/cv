@@ -8,7 +8,7 @@ Stanford University
 
 <div class="list">
 
-PhD 2022 (expected), Department of Mechanical Engineering, Stanford University. 
+PhD 2022, Department of Mechanical Engineering, Stanford University. 
 Advisors: Zac Manchester, Allison Okamura
 
 MS 2019, Department of Mechanical Engineering, Stanford University.
@@ -70,7 +70,7 @@ Use of a highly parallel Microfluidic Flow Cell Array to determine therapeutic d
 
 <div class="list">
 
-Numerical Optimization For Things That Move: Simulation, Planning, and Control. ([slides](https://docs.google.com/presentation/d/1ypalKNcd1hAI59Fur3mFP5FYANqrQ1Smk2gUb-UiBIA/edit?usp=sharing)) 
+Numerical Optimization For Things That Move: Simulation, Planning, and Control. ([thesis](https://github.com/thowell/thesis/blob/main/main.pdf)) ([slides](https://docs.google.com/presentation/d/1ypalKNcd1hAI59Fur3mFP5FYANqrQ1Smk2gUb-UiBIA/edit?usp=sharing)) 
 - PhD Defense. Stanford. November 2022.
 
 Contact-Implicit Predictive Control. ([slides](https://docs.google.com/presentation/d/1cKX3DPjEyANDVlfi7JYHEFXq15LCYBmchT4lVkyVnkc/edit?usp=sharing)) 
