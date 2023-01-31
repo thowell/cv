@@ -1,6 +1,6 @@
 ## Taylor Howell
 
- <span class="sans-serif">thowell@stanford.edu, https://thowell.github.io</span>  
+ <span class="sans-serif">taylor.athaniel.howell@gmail.com, https://thowell.github.io</span>  
 PhD Candidate, Department of Mechanical Engineering,
 Stanford University
 
@@ -44,6 +44,8 @@ Twisty Puzzle Designer
 
 <div class="list">
 
+*Lead*
+
 Predictive Sampling: Real-time Behaviour Synthesis with MuJoCo. **T. Howell**, N. Gileadi, S. Tunyasuvunakool, K. Zakka, T. Erez, Y. Tassa. arXiv. 2022. ([paper](https://arxiv.org/abs/2212.00541)) ([code](https://github.com/deepmind/mujoco_mpc)) 
  
 CALIPSO: A Differentiable Solver for Trajectory Optimization with Conic and Complementarity Constraints. **T. Howell**, K. Tracy, S. Le Cleac'h. Z. Manchester. ISRR. 2022. ([paper](https://arxiv.org/abs/2205.09255)) ([code](https://github.com/thowell/CALIPSO.jl)) ([slides](https://slides.com/taylorhowell/calipso))
@@ -61,6 +63,12 @@ Scalable Cooperative Transport of Cable-Suspended Loads with UAVs using Distribu
 ALTRO: A Fast Solver for Constrained Trajectory Optimization. **T. Howell** & B. Jackson, Z. Manchester. International Conference on Intelligent Robots and Systems. Macao, China. 2019. ([paper](https://roboticexplorationlab.org/papers/altro-iros.pdf)) ([code](https://github.com/RoboticExplorationLab/TrajectoryOptimization.jl))
     
 Sorting Rotating Micromachines By Variations in Their Magnetic Properties. **T. Howell**, B. Osting, J. Abbott. Physical Review Applied. 2018. ([paper](https://journals.aps.org/prapplied/pdf/10.1103/PhysRevApplied.9.054021))
+
+*Contributions*
+
+Differentiable Physics Simulation of Dynamics-Augmented Neural Objects. S. Le Cleac'h, HX Yu, M. Guo, **T. Howell**, R. Gao, J. Wu, Z. Manchester, M. Schwager. (submitted to RAL). 2022. ([paper](https://arxiv.org/pdf/2210.09420.pdf))
+
+Differentiable Collision Detection for a Set of Convex Primitives. K. Tracy, **T. Howell**, Z. Manchester. ICRA. 2023. ([paper](https://arxiv.org/abs/2207.00669))
 
 Use of a highly parallel Microfluidic Flow Cell Array to determine therapeutic drug dose response curves. J. Arellano, **T. Howell**, J. Gammon, S. Cho, M. Janat Amsbury, B. Gale. Biomedical Microdevices. 2017. ([paper](https://link.springer.com/article/10.1007/s10544-017-0166-3))
 
