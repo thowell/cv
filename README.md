@@ -66,6 +66,8 @@ Sorting Rotating Micromachines By Variations in Their Magnetic Properties. **T. 
 
 *Contributions*
 
+RoboPianist: A Benchmark for High-Dimensional Robot Control. K. Zakka, L. Smith, N. Gileadi, **T. Howell**, X. B. Peng, S. Singh, Y. Tassa, P. Florence, A. Zeng, P. Abbeel. arXiv. ([paper](https://arxiv.org/abs/2304.04150))
+
 Differentiable Physics Simulation of Dynamics-Augmented Neural Objects. S. Le Cleac'h, HX Yu, M. Guo, **T. Howell**, R. Gao, J. Wu, Z. Manchester, M. Schwager. (submitted to RAL). 2022. ([paper](https://arxiv.org/pdf/2210.09420.pdf))
 
 Differentiable Collision Detection for a Set of Convex Primitives. K. Tracy, **T. Howell**, Z. Manchester. ICRA. 2023. ([paper](https://arxiv.org/abs/2207.00669))
