@@ -80,6 +80,9 @@ Use of a highly parallel Microfluidic Flow Cell Array to determine therapeutic d
 
 <div class="list">
 
+MuJoCo MPC: An Open-source Tool for Real-time Behavior Synthesis. ([poster](https://docs.google.com/presentation/d/14M2rz7DWrZeEf3Aa8lnxzaawUINGM0JP98HF-bJCs6g/edit?usp=sharing))
+- Hyundai Vision Conference. August 2023.
+
 Numerical Optimization For Things That Move: Simulation, Planning, and Control. ([thesis](https://github.com/thowell/thesis/blob/main/main.pdf)) ([slides](https://docs.google.com/presentation/d/1ypalKNcd1hAI59Fur3mFP5FYANqrQ1Smk2gUb-UiBIA/edit?usp=sharing)) 
 - PhD Defense. Stanford. November 2022.
 
