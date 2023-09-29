@@ -1,189 +1,228 @@
 \documentclass[10pt]{article}
-\usepackage[margin=1.25cm, top=1.25cm]{geometry}
+\usepackage[margin=1.25cm, top=0.75cm]{geometry}
+\usepackage{xcolor}
 \usepackage{hyperref}
 \usepackage{pagecolor}
 \pagecolor{black}
+\definecolor{lightgray}{HTML}{CCCCCC}
 \color{white}
-\usepackage[light,scaled=0.85]{roboto-mono}
+\usepackage[light, scaled=0.15]{roboto-mono}
 \setmainfont{roboto-mono}
+\newfontfamily\lightroboto{Roboto Mono Light}
+\definecolor{linkcolor}{HTML}{ff00ff    }
+\hypersetup{
+    colorlinks=true,
+    linkcolor=linkcolor, % Internal links
+    urlcolor=linkcolor, % External links
+    citecolor=linkcolor, % Citation links
+    filecolor=linkcolor, % File links
+}
 
-\title{\large \textbf{TAYLOR A. HOWELL}}
+\title{\large \textbf{Taylor A. Howell}}
+
 
 \author{
-\large
-website: thowell.github.io\\
-email: taylor.athaniel.howell@gmail.com
+    \small {website}: \href{https://thowell.github.io}{thowell.github.io} \quad\quad {email}: \href{mailto:taylor.athaniel.howell@gmail.com}{taylor.athaniel.howell@gmail.com}
 }
+
 \date{}
 
 \begin{document}
+\thispagestyle{empty} % Remove page numbering on this page
+\footnotesize
 \maketitle
-\noindent
-I am an engineer and researcher interested in high-performance numerical optimization and its applications to simulation, control, and robotics.
+\vspace{-1.cm}
+
+\section*{Summary}
+\noindent {\color{lightgray} I am an engineer and researcher interested in high-performance numerical optimization and its applications to simulation, control, robotics, and machine learning.}
 
 \section*{Education}
-PhD in Mechanical Engineering, 2017-2022\\
-\textit{Numerical Optimization, Robotics, Control, Simulation}\\
-Stanford University
+\textbf{PhD / MS} in \textbf{Mechanical Engineering} \hfill \textbf{September 2017 - December 2022}\\
+\textbf{Dissertation}: {\color{lightgray}\it Numerical Optimization For Things That Move: Simulation, Planning, and Control}\\
+\textbf{Advisors}: {\color{lightgray} Zachary Manchester, Allison Okamura}\\
+\textbf{Stanford University}
 \\
 \\
-MS in Mechanical Engineering, 2017-2019\\
-\textit{Automatic Controls, Robotics}\\
-Stanford University
-\\
-\\
-BS \textit{summa cum laude} in Mechanical Engineering, 2013-2016\\
-University of Utah
+\textbf{BS} \textit{summa cum laude} in \textbf{Mechanical Engineering} \hfill \textbf{May 2013 - December 2016}\\
+\textbf{Senior Project}: {\color{lightgray} Wireless Power for Aerial Robots}\\
+\textbf{University of Utah}
 
-\section*{Industry Experience}
-Research Scientist Intern - DeepMind, London, UK. 2022. \\
-Worked on the MuJoCo robotic simulation team with Yuval Tassa. 
-Project lead - MuJoCo MPC. 
-First author - Predictive Sampling: Real-time Behaviour Synthesis with MuJoCo.
-\\
-\\ 
-Research Intern - Google, San Francisco, USA (remote). 2021. \\
-Worked on planning with differentiable dynamical systems using JAX with Vikas Sindhwani. 
-First author - Trajectory Optimization with Optimization-Based Dynamics.
+\section*{Professional Experience}
+\textbf{DeepMind}, London, United Kingdom \hfill \textbf{June - October 2022} \\
+Research Scientist Intern: \hfill Mentor: {\color{lightgray} Yuval Tassa}
+\begin{itemize}
+    \item {\color{lightgray}\textbf{MuJoCo MPC} (project lead) is a tool for real-time robot behavior generation using prediction control algorithms.} \\\href{https://github.com/google-deepmind/mujoco_mpc}{github.com/google-deepmind/mujoco\_mpc}
+    \item {\color{lightgray} C/C++, MuJoCo, Git, numerical optimization, parallel computing, motion planning}
+    \item {\color{lightgray} First author: \textit{Predictive Sampling: Real-time Behaviour Synthesis with MuJoCo}}
+\end{itemize}
+
+\noindent\textbf{Google Brain}, San Francisco, CA (remote) \hfill \textbf{June - September 2021} \\
+Research Intern: \hfill Mentor: {\color{lightgray} Vikas Sindhwani}
+\begin{itemize}
+    \item {\color{lightgray} Python, JAX, differentiable optimization, planning algorithms}
+    \item {\color{lightgray} First author: 
+    \textit{Trajectory Optimization with Optimization-Based Dynamics}}
+\end{itemize}
 
 \section*{Research Experience}
-Robotic Exploration Lab (Prof. Zachary Manchester), Stanford University | Carnegie Mellon University (remote). 2018-2022.
-\\
-\\
-Telerobotics Laboratory (Prof. Jake Abbott), University of Utah. 2015-2016.
-\\
-\\
-Utah Center for Excellence in Biomedical Microfluidics (Prof. Bruce Gale), University of Utah. 2014-2015.
+\textbf{Robotic Exploration Lab}, Stanford, CA | Pittsburgh, PA (remote) \hfill \textbf{May 2018 - December 2022} \\
+Research Assistant: \hfill Advisor: {\color{lightgray} Prof. Zachary Manchester}
+\begin{itemize}
+    \item {\color{lightgray} Motion planning for drone coordination, legged locomotion, and robotic manipulation.}
+    \item {\color{lightgray} Differentiable physics simulation for contact dynamics.}
+    \item {\color{lightgray} Open-source software development in Julia.}
+    \item{\color{lightgray} Hardware: quadrotors, quadrupeds (Stanford Doggo, Unitree A1)}
+\end{itemize}
+
+\noindent\textbf{Telerobotics Laboratory}, Salt Lake City, UT \hfill \textbf{October 2015 - December 2016} \\
+Undergraduate Researcher: \hfill Mentor: {\color{lightgray} Prof. Jake Abbott}
+\begin{itemize}
+    \item {\color{lightgray} Algorithm design for control of magnetically actuated microrobot swarms.}
+    \item {\color{lightgray} Fabrication of scaled magnetic microrobot swimmers and experimentation with rotating magnetic fields.}
+\end{itemize}
+
+\noindent\textbf{Utah Center for Excellence in Biomedical Microfluidics}, Salt Lake City, UT \hfill \textbf{September 2014 - October 2015} \\
+Undergraduate Researcher: \hfill Mentor: {\color{lightgray} Prof. Bruce Gale}
+\begin{itemize}
+    \item {\color{lightgray} Design and fabrication of mechatronics device for experimental high-throughput system for testing ovarian cancer treatments.}
+    \item {\color{lightgray} Assisted in experiments evaluating efficacy of cancer treatments: cell passaging, treatment preparation, tumor harvesting}
+\end{itemize}
 
 \section*{Skills}
-Programming: C/C++, Python, Julia
+\textbf{Programming}: {\color{lightgray} C/C++, Python, Julia}
 \\
+\textbf{Computational}: {\color{lightgray} \LaTeX, Git, Linux, SNOPT, Ipopt, CVX/Convex.jl, MeshCat, MuJoCo, JAX, Solidworks, VSCode, Arduino}
 \\
-Computational: \LaTeX, Git, Linux, SNOPT, Ipopt, CVX/Convex.jl, MeshCat, MuJoCo, JAX, Solidworks, VSCode, Arduino
-\\
-\\
-Fabrication: Mill, Lathe, Vacuum Forming, Laser Cutting, Mold Making and Casting, Metal Sheet Fabrication
+\textbf{Fabrication}: {\color{lightgray} Mill, Lathe, Vacuum Forming, Laser Cutting, Mold Making and Casting, Metal Sheet Fabrication}
 
 \section*{Publications}
 \begin{center} Lead | Co-Lead \end{center}
-Numerical Optimization For Things That Move: Simulation, Planning, and Control. \textbf{T.Howell}. Stanford University. 2022. 
+\textit{Numerical Optimization For Things That Move: Simulation, Planning, and Control}. \textbf{T.Howell}. {\color{lightgray} Stanford University. 2022.}
 [\href{https://github.com/thowell/thesis/blob/main/main.pdf}{dissertation}]
 [\href{https://docs.google.com/presentation/d/1ypalKNcd1hAI59Fur3mFP5FYANqrQ1Smk2gUb-UiBIA/edit?usp=sharing}{slides}]
 \\
 \\
-Predictive Sampling: Real-time Behaviour Synthesis with MuJoCo. \textbf{T. Howell}, N. Gileadi, S. Tunyasuvunakool, K. Zakka, T. Erez, Y. Tassa. arXiv. 2022. 
+\textit{Predictive Sampling: Real-time Behaviour Synthesis with MuJoCo}. \textbf{T. Howell}{\color{lightgray}, N. Gileadi, S. Tunyasuvunakool, K. Zakka, T. Erez, Y. Tassa. arXiv. 2022.}
 [\href{https://arxiv.org/abs/2212.00541}{paper}]
 [\href{https://github.com/deepmind/mujoco_mpc}{code}]
 \\
 \\
-CALIPSO: A Differentiable Solver for Trajectory Optimization with Conic and Complementarity Constraints. \textbf{T. Howell}, K. Tracy, S. Le Cleac'h. Z. Manchester. ISRR. 2022.
+\textit{CALIPSO: A Differentiable Solver for Trajectory Optimization with Conic and Complementarity Constraints.} \textbf{T. Howell}{\color{lightgray}, K. Tracy, S. Le Cleac'h. Z. Manchester. ISRR. 2022.}
 [\href{https://arxiv.org/abs/2205.09255}{paper}]
 [\href{https://github.com/thowell/CALIPSO.jl}{code}]
 [\href{https://slides.com/taylorhowell/calipso}{slides}]
 \\
 \\
-Dojo: A Differentiable Physics Engine for Robotics. \textbf{T. Howell} \& S. Le Cleac'h, Z. Kolter, M. Schwager, Z. Manchester. arXiv. 2022. 
+\textit{Dojo: A Differentiable Physics Engine for Robotics.} \textbf{T. Howell} {\color{lightgray}\& S. Le Cleac'h, Z. Kolter, M. Schwager, Z. Manchester. arXiv. 2022.}
 [\href{https://arxiv.org/abs/2203.00806}{paper}]
 [\href{https://github.com/dojo-sim}{code}]
 \\
 \\
-Trajectory Optimization with Optimization-Based Dynamics. \textbf{T. Howell}, S. Le Cleac'h, S. Singh, P. Florence, Z. Manchester, V. Sindhwani. RAL. 2022. 
+\textit{Trajectory Optimization with Optimization-Based Dynamics.} \textbf{T. Howell}{\color{lightgray}, S. Le Cleac'h, S. Singh, P. Florence, Z. Manchester, V. Sindhwani. RAL. 2022.}
 [\href{https://arxiv.org/abs/2109.04928}{paper}]
 [\href{https://github.com/thowell/optimization_dynamics}{code}]
 [\href{https://github.com/thowell/cv/blob/master/posters/optimization_dynamics_poster.pdf}{poster}]
 \\
 \\
-Fast Contact-Implicit Model Predictive Control. S. Le Cleac'h \& \textbf{T. Howell}, M. Schwager, Z. Manchester. (submitted to TRO). 2021. 
+\textit{Fast Contact-Implicit Model Predictive Control.} {\color{lightgray} S. Le Cleac'h \&} \textbf{T. Howell}{\color{lightgray}, M. Schwager, Z. Manchester. (submitted to TRO). 2021.}
 [\href{https://arxiv.org/abs/2107.05616v2}{paper}]
 [\href{https://github.com/thowell/ContactImplicitMPC.jl}{code}]
 \\
 \\
-Direct Policy Optimization using Deterministic Sampling and Collocation. \textbf{T. Howell}, C. Fu, Z. Manchester. RAL. 2020. 
+\textit{Direct Policy Optimization using Deterministic Sampling and Collocation.} \textbf{T. Howell}{\color{lightgray}, C. Fu, Z. Manchester. RAL. 2020.}
 [\href{https://arxiv.org/abs/2010.08506v3}{paper}]
 [\href{https://github.com/thowell/direct_policy_optimization}{code}]
 \\
 \\
-Scalable Cooperative Transport of Cable-Suspended Loads with UAVs using Distributed Trajectory Optimization. B. Jackson \& \textbf{T. Howell}, K. Shah, M. Schwager, Z. Manchester. RAL. 2020. 
+\textit{Scalable Cooperative Transport of Cable-Suspended Loads with UAVs using Distributed Trajectory Optimization.} {\color{lightgray}B. Jackson \&} \textbf{T. Howell}{\color{lightgray}, K. Shah, M. Schwager, Z. Manchester. RAL. 2020.}
 [\href{https://roboticexplorationlab.org/papers/distributed_quads.pdf}{paper}]
 \\
 \\
-ALTRO: A Fast Solver for Constrained Trajectory Optimization. \textbf{T. Howell} \& B. Jackson, Z. Manchester. IROS. 2019. 
+\textit{ALTRO: A Fast Solver for Constrained Trajectory Optimization.} \textbf{T. Howell} {\color{lightgray} \& B. Jackson, Z. Manchester. IROS. 2019.}
 [\href{https://roboticexplorationlab.org/papers/altro-iros.pdf}{paper}]
 [\href{https://github.com/RoboticExplorationLab/TrajectoryOptimization.jl}{code}]
 \\
 \\
-Sorting Rotating Micromachines By Variations in Their Magnetic Properties. \textbf{T. Howell}, B. Osting, J. Abbott. Physical Review Applied. 2018. 
+\textit{Sorting Rotating Micromachines By Variations in Their Magnetic Properties.} \textbf{T. Howell}{\color{lightgray}, B. Osting, J. Abbott. Physical Review Applied. 2018.}
 [\href{https://journals.aps.org/prapplied/pdf/10.1103/PhysRevApplied.9.054021}{paper}]
 \\
 \begin{center} Contributions \end{center}
-RoboPianist: A Benchmark for High-Dimensional Robot Control. K. Zakka, L. Smith, N. Gileadi, \textbf{T. Howell}, X. B. Peng, S. Singh, Y. Tassa, P. Florence, A. Zeng, P. Abbeel. arXiv. 2023. 
+\textit{RoboPianist: A Benchmark for High-Dimensional Robot Control.} {\color{lightgray} K. Zakka, L. Smith, N. Gileadi,} \textbf{T. Howell} {\color{lightgray}, X. B. Peng, S. Singh, Y. Tassa, P. Florence, A. Zeng, P. Abbeel. arXiv. 2023.}
 [\href{https://arxiv.org/abs/2304.04150}{paper}]
 \\
 \\
-Differentiable Physics Simulation of Dynamics-Augmented Neural Objects. S. Le Cleac'h, HX Yu, M. Guo, \textbf{T. Howell}, R. Gao, J. Wu, Z. Manchester, M. Schwager. RAL. 2022. 
+\textit{Differentiable Physics Simulation of Dynamics-Augmented Neural Objects.}{\color{lightgray} S. Le Cleac'h, HX Yu, M. Guo, }\textbf{T. Howell}{\color{lightgray}, R. Gao, J. Wu, Z. Manchester, M. Schwager. RAL. 2022.}
 [\href{https://arxiv.org/pdf/2210.09420.pdf}{paper}]
 \\
 \\
-Differentiable Collision Detection for a Set of Convex Primitives. K. Tracy, \textbf{T. Howell}, Z. Manchester. ICRA. 2023.
+\textit{Differentiable Collision Detection for a Set of Convex Primitives.} {\color{lightgray} K. Tracy,} \textbf{T. Howell}{\color{lightgray}, Z. Manchester. ICRA. 2023.}
 [\href{https://arxiv.org/abs/2207.00669}{paper}]
 \\
 \\
-Use of a highly parallel Microfluidic Flow Cell Array to determine therapeutic drug dose response curves. J. Arellano, \textbf{T. Howell}, J. Gammon, S. Cho, M. Janat Amsbury, B. Gale. Biomedical Microdevices. 2017. 
+\textit{Use of a highly parallel Microfluidic Flow Cell Array to determine therapeutic drug dose response curves.} {\color{lightgray} J. Arellano, }\textbf{T. Howell}{\color{lightgray}, J. Gammon, S. Cho, M. Janat Amsbury, B. Gale. Biomedical Microdevices. 2017.}
 [\href{https://link.springer.com/article/10.1007/s10544-017-0166-3}{paper}]
 
 \section*{Open Source}
-\href{https://github.com/deepmind/mujoco_mpc}{MuJoCo MPC} - real-time behavior synthesis for robots using an interactive GUI and fast planners written in multi-threaded C++.
-\\
-\\
-\href{https://github.com/thowell/CALIPSO.jl}{CALIPSO.jl} - a differentiable optimizer for non-convex optimization problems with support for conic and complementarity constraints, implemented in Julia.
-\\
-\\
-\href{https://github.com/dojo-sim/Dojo.jl}{Dojo.jl} - a differentiable physics engine for rigid-body dynamics with contact, implemented in Julia.
-\\
-\\
-\href{https://github.com/RoboticExplorationLab/TrajectoryOptimization.jl}{TrajectoryOptimization.jl} - a tool for fast trajectory optimization with direct and indirect methods, implemented in Julia.
-\\
-\\
-Additional work: [\href{https://github.com/thowell}{github.com/thowell}]
+
+[\href{https://github.com/deepmind/mujoco_mpc}{MuJoCo MPC}] {\color{lightgray} interactive behavior synthesis for robots}
+\begin{itemize}
+    \item {\color{lightgray} paid consulting work for state estimation tool \hfill June - September 2023}
+\end{itemize}
+
+\noindent[\href{https://github.com/thowell/CALIPSO.jl}{CALIPSO.jl}] {\color{lightgray} solver for non-convex optimization problems conic and complementarity constraints}
+
+\noindent[\href{https://github.com/dojo-sim/Dojo.jl}{Dojo.jl}] {\color{lightgray} differentiable physics engine for rigid-body dynamics with contact}
+
+\noindent[\href{https://github.com/RoboticExplorationLab/TrajectoryOptimization.jl}{TrajectoryOptimization.jl}] {\color{lightgray} tool for fast trajectory optimization}
+
+\noindent Additional work: [\href{https://github.com/thowell}{github.com/thowell}]
 
 \section*{Teaching Experience}
-Course Assistant - Dynamics and Control of Aircraft (AA271a), Department of Aeronautics and Astronautics, Stanford University. 2021.
-\\
-\\
-Instructor - GREAT Summer Camp, Department of Computer Science, University of Utah, Salt Lake City, USA. 2017. \\
-Taught basic programming and robotics skills.
+\textbf{Course Assistant}, Department of Aeronautics and Astronautics, Stanford University \hfill Spring 2021\\
+{\color{lightgray} Dynamics and Control of Aircraft (AA271a) \hfill Prof. Stephen Rock} 
+\begin{itemize}
+    \item {\color{lightgray} held multiple office hours each week (virtually) and graded assignments}
+\end{itemize}
+\textbf{Robotics Instructor}, GREAT Summer Camp, School of Computing, University of Utah \hfill Summer 2017
+\begin{itemize}
+    \item {\color{lightgray} taught basic robotics and programming skills to elementary school students with LEGO Mindstormm platform}
+\end{itemize}
 
 \section*{Awards and Honors}
-Stanford Graduate Fellowship,  2017-2018.
+Stanford Graduate Fellowship \hfill  2017 - 2018
 \\
 \\
-University of Utah Undergraduate Research Opportunities Program Fellowship, 2016.
+University of Utah Undergraduate Research Opportunities Program Fellowship \hfill 2016
 \\
 \\
-The Boeing Company Scholarship, 2016.
+The Boeing Company Scholarship \hfill 2016
 \\
 \\
-Shirley L. \& Kathelyne O. Evans Endowed Scholarship, 2016.
+Shirley L. \& Kathelyne O. Evans Endowed Scholarship \hfill 2016
 \\
 \\
-Big Ten+ Grad Expo Travel Scholarship, 2016.
+Big Ten+ Grad Expo Travel Scholarship \hfill 2016
 \\
 \\
-University of Utah Presidential Scholarship, 2013–2016.
+University of Utah Presidential Scholarship \hfill 2013 – 2016
 
 \section*{Community}
-Reviewer - ICRA, IROS, RAL, 2018-2022.
+Reviewer \hfill 2018 - 2022 \\
+{\color{lightgray} ICRA, IROS, RAL} 
 \\
 \\
-Co-organizer - Social Impact Night event at Stanford University to connect social-impact focused students and entrepreneurs, 2019.
+Social Impact Night co-organizer \hfill 2019\\
+{\color{lightgray} Helped plan and run event at Stanford University to connect social-impact focused students and entrepreneurs.} 
 \\
 \\
-Mentor - to three summer interns at the Telerobotics Laboratory and developed soft robots with potential as catheter tips that will increase insertion distance deep in the brain and other hard-to-reach locations in the body, 2016.
+Research mentor \hfill 2016 \\
+{\color{lightgray} Mentored three summer interns at the Telerobotics Laboratory and developed soft robots with potential as catheter tips that will increase insertion distance deep in the brain and other hard-to-reach locations in the body.}
 \\
 \\
-Science-fair judge - providing feedback to students, at local elementary school in Salt Lake City, on their projects, 2015.
+Science-fair judge \hfill 2015\\
+{\color{lightgray} Surveyed projects and provided feedback to students at local elementary school in Salt Lake City.}
 
-\section*{Courses}
-Convex Optimization · Optimal Control · Nonlinear Control · Advanced Software Development · Engineering Design Optimization · Deep Learning · State Estimation · Principles of Robotic Autonomy · Introduction to Mechatronics · Linear Dynamical Systems · Introduction to Robotics · Machine Learning · Decision Making Under Uncertainty · Control Design Techniques · Advanced Robotic Manipulation · Advanced Feedback Control · Introduction to Optimization · Experimental Robotics · Multi-robot Systems · RL for Stochastic Control in Finance · State Space Control · Design of Experiments · Introduction to Finite Element Method · Programming for Engineers 
+\section*{Coursework}
+{\color{lightgray} Convex Optimization · Optimal Control · Nonlinear Control · Advanced Software Development · Engineering Design Optimization · Deep Learning · State Estimation · Principles of Robotic Autonomy · Introduction to Mechatronics · Linear Dynamical Systems · Introduction to Robotics · Machine Learning · Decision Making Under Uncertainty · Control Design Techniques · Advanced Robotic Manipulation · Advanced Feedback Control · Introduction to Optimization · Experimental Robotics · Multi-robot Systems · RL for Stochastic Control in Finance · State Space Control · Design of Experiments · Introduction to Finite Element Method · Programming for Engineers}
 
 \end{document}
