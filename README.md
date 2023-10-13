@@ -44,9 +44,11 @@ Twisty Puzzle Designer
 
 <div class="list">
 
-*Lead*
+*Lead | Co-lead*
 
-Predictive Sampling: Real-time Behaviour Synthesis with MuJoCo. **T. Howell**, N. Gileadi, S. Tunyasuvunakool, K. Zakka, T. Erez, Y. Tassa. arXiv. 2022. ([paper](https://arxiv.org/abs/2212.00541)) ([code](https://github.com/deepmind/mujoco_mpc)) 
+Numerical Optimization For Things That Move: Simulation, Planning, and Control. **T. Howell**. 2022. ([dissertation](https://github.com/thowell/thesis))
+
+Predictive Sampling: Real-time Behaviour Synthesis with MuJoCo. **T. Howell**, N. Gileadi, S. Tunyasuvunakool, K. Zakka, T. Erez, Y. Tassa. arXiv. 2022. ([paper](https://arxiv.org/abs/2212.00541)) ([code](https://github.com/deepmind/mujoco_mpc)) ([slides](https://docs.google.com/presentation/d/1un6KXNTgmoG-gMXOn_TNUOFWh9EXzDnjOxxwoxMQYiM/edit?usp=sharing))
  
 CALIPSO: A Differentiable Solver for Trajectory Optimization with Conic and Complementarity Constraints. **T. Howell**, K. Tracy, S. Le Cleac'h. Z. Manchester. ISRR. 2022. ([paper](https://arxiv.org/abs/2205.09255)) ([code](https://github.com/thowell/CALIPSO.jl)) ([slides](https://slides.com/taylorhowell/calipso))
  
